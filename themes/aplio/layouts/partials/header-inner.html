@@ -4,19 +4,9 @@
 >
   <nav class="container flex  items-center">
     <div class="nav-logo">
-      <a href="{{.Site.BaseURL}}">
-        <img
-          src="{{ .Site.Params.logo | absURL }}"
-          alt="logo"
-          class="dark:hidden"
-        />
-        <img
-        src="{{ .Site.Params.logoDark | absURL }}"
-          alt="logo dark version"
-          class="hidden dark:inline-block"
-        />
-      </a>
+      <a href="{{ .Site.BaseURL }}" class="site-logo">{{ .Site.Params.siteLogoText }}</a>
     </div>
+
     <ul class="nav-list hidden lg:flex lg:ml-7 xl:ml-15  [&>*:not(:last-child)]:me-1">
       {{ $current := . }}
       {{ range .Site.Menus.main.ByWeight }}

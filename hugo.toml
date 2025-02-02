@@ -236,6 +236,7 @@ theme= 'aplio'
   linkedinLink= "#"
   githubLink= "#"
   behanceLink= "#"
+  siteLogoText = "01.at"
   
   
 [module]

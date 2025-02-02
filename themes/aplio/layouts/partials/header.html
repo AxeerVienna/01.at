@@ -5,20 +5,10 @@
   id="mainnavigationBar"
 >
   <nav class="container flex  items-center ">
-    <div class="nav-logo xl:min-w-[266px]">
-      <a href="{{.Site.BaseURL}}">
-        <img
-          src="{{ .Site.Params.logo | absURL }}"
-          alt="logo"
-          class="dark:hidden"
-        />
-        <img
-        src="{{ .Site.Params.logoDark | absURL }}"
-          alt="logo dark version"
-          class="hidden dark:inline-block"
-        />
-      </a>
+    <div class="nav-logo">
+      <a href="{{ .Site.BaseURL }}" class="site-logo">{{ .Site.Params.siteLogoText }}</a>
     </div>
+  
     <ul
       class="nav-list hidden lg:flex mx-auto bg-white dark:bg-dark-200 p-2.5 shadow-nav rounded-large [&>*:not(:last-child)]:me-1"
     >

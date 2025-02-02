@@ -2989,6 +2989,13 @@ html{
 .blog-details-body img{
   margin-bottom: 4rem;
 }
+.site-logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #18181B;
+  text-decoration: none; }
+.dark .site-logo {
+  color: #ffffff; }
 .placeholder\:font-jakarta_sans::-moz-placeholder{
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -4718,9 +4725,6 @@ html{
   }
   .xl\:w-\[442px\]{
     width: 442px;
-  }
-  .xl\:min-w-\[266px\]{
-    min-width: 266px;
   }
   .xl\:max-w-\[1020px\]{
     max-width: 1020px;
