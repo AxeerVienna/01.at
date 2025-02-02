@@ -1,0 +1,6 @@
+baseURL = "https://01.at/"
+languageCode = "en-us"
+title = "01.at"
+
+[pagination]
+  pagerSize = 10
