@@ -1,0 +1,8 @@
+baseURL = "https://example.com/"
+languageCode = "de-de"
+title = "Meine Hugo-Seite"
+theme = "Alex01"
+
+
+[params]
+description = "Eine einfache Hugo-Website mit zweigeteiltem Hintergrund"
