@@ -1,4 +1,4 @@
 baseURL = 'https://01.at/'
 languageCode = 'en-us'
-title = '01.at digital enthusiast'
+title = '01.at'
 theme = 'ananke'
