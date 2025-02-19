@@ -3,7 +3,7 @@ title: "Home"
 date:  2024-07-29T13:48:36+06:00
 hero: 
   - name: >
-      Make your <span class="font-playfair italic inline-block px-5 border-2 rounded-[88px] pt-0.5 pb-2.5 leading-none border-paragraph bg-[#D9D9D900] dark:border-[#F0F3EA]"> Finance </span> more efficient.
+      Make your <span class="font-playfair italic inline-block px-5 border-2 rounded-[88px] pt-0.5 pb-2.5 leading-none border-paragraph bg-[#D9D9D900] dark:border-[#F0F3EA]"> Business </span> more efficient.
     tagline: "50k+ Trusted Businesses"
     description: >
       Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It's not Latin, though it looks like it
